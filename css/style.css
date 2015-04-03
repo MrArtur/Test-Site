@@ -1,0 +1,513 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+/*------------------COMMON----------------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	min-width: 1024px;
+}
+
+div.centerWrapper{
+	width: 1004px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Cabin', sans-serif;
+	font-weight: normal;
+	font-size: 48px;
+	color: #000;
+}
+
+h3, a{
+	font-family: 'Cabin', sans-serif;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+/*------------------COMMON ENDS----------------------*/
+
+
+/*------------------HEADER----------------------*/
+
+header{
+	background: #9b9a95;
+	min-height: 150px;
+}
+
+a.logo{
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+	float: left;
+	margin-top: 55px;
+}
+
+a.logo .name{
+	font-weight: normal;
+	font-size: 33px;
+}
+
+a.logo:hover{
+	color: #4ecb8c;
+}
+
+header nav.top{
+	font-family: 'Poiret One', cursive;
+	margin-right: 1px; 
+	float: right;
+}
+
+header nav.top ul li{
+	text-transform: uppercase;
+	padding: 70px 20px;
+	list-style: none;
+	float: left;
+}
+
+header nav.top ul li:last-child{
+	padding-right: 0;
+}
+
+header nav.top ul li a{
+	font-size: 14px;
+}
+
+header nav.top ul li a:hover{
+	color: #4ecb8c;
+}
+
+/*------------------HEADER ENDS----------------------*/
+
+
+/*------------------DESCRIPTION----------------------*/
+
+div.description{
+	background: #9b9a95;
+	min-height: 775px;
+	border-top: 1px solid transparent;
+}
+
+div.description section{
+	max-width: 650px;
+}
+
+div.description section h1{
+	margin-top: 140px;
+	line-height: 60px;
+	font-size: 60px;
+	color: #fff;
+}
+
+div.description section p{
+	font-size: 20px;
+	font-weight: lighter;
+	color: #fff;
+	line-height: 32px;
+}
+
+div.description section a.start{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 16px;
+	background: #4ecb8c;
+	padding: 20px 25px;
+	margin-top: 70px;
+	border-radius: 3px;
+}
+
+div.description section a.start:hover{
+	background: #fff;
+	color: #4ecb8c;
+}
+
+/*------------------DESCRIPTION ENDS----------------------*/
+
+
+/*------------------FEATURES----------------------*/
+
+div.features{
+	min-height: 505px;
+	border-top: 1px solid transparent;
+}
+
+div.features h2{
+	font-weight: normal;
+	text-align: center;
+	margin-top: 130px;
+}
+
+div.features .allFeatures{
+	margin-top: 110px;
+}
+
+div.features .allFeatures .feature{
+	display: inline-block;
+	border: 2px solid #f7f7f7;
+	padding: 55px 15px 15px 15px;
+	margin-right: 30px;
+	float: left;
+	position: relative;
+}
+
+div.features .allFeatures .thirdFeature{
+	margin-right: 0;
+}
+
+div.features .allFeatures .feature p{
+	text-align: center;
+	color: #444444;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+div.features .allFeatures .feature .bg{
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	top: -32px;
+	left: 50%;
+	margin-left: -32px;
+}
+
+div.features .allFeatures .feature h3{
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+div.features .allFeatures .feature .firstBg{
+	background: url(../img/firstFeature.png);
+	background-repeat: no-repeat;
+}
+
+div.features .allFeatures .feature .secondBg{
+	background: url(../img/secondFeature.png);
+	background-repeat: no-repeat;
+}
+
+div.features .allFeatures .feature .thirdBg{
+	background: url(../img/thirdFeature.png);
+	background-repeat: no-repeat;
+}
+
+/*------------------FEATURES ENDS----------------------*/
+
+
+/*------------------STORY----------------------*/
+
+div.story{
+	min-height: 659px;
+	border-top: 1px solid #dbddde;
+	background: #e9ebea;
+}
+
+div.story section{
+	min-width: 515px;
+	float: right;
+	margin-top: 125px;
+}
+
+div.story section h2{
+	margin-bottom: 50px;
+}
+
+div.story section p{
+	margin-bottom: 35px;
+	color: #444444;
+	line-height: 24px;
+}
+
+div.story section a{
+	display: inline-block;
+	border: 2px solid black;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+/*------------------STORY ENDS----------------------*/
+
+
+/*------------------CLIENTS----------------------*/
+
+div.clients{
+	min-height: 890px;
+	border-top: 1px solid transparent;
+}
+
+div.clients h2{
+	margin-top: 120px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+div.clients .column{
+	width: 490px;
+	padding: 5px 10px 5px 0;
+	float: left;
+}
+
+div.clients .secondColumn{
+	padding: 5px 0px 5px 10px;
+}
+
+div.clients .column .review > p{
+	position: relative;
+	font-size: 20px;
+	color: #444444;
+	border: 2px solid #dedede;
+	padding: 30px 35px 30px 30px;
+	margin-bottom: 20px;
+}
+
+div.clients .column .review > p:after{
+	content: '';
+	display: block;
+	width: 17px;
+	height: 11px;
+	background: url(../img/triangle.jpg);
+	position: absolute;
+	bottom: -11px;
+	right: 25px;
+}
+
+div.clients .column .review section img{
+	float: right;
+	margin-right: 5px;
+}
+
+div.clients .column .review section p, div.clients .column .review section h3{
+	text-align: right;
+	padding-right: 85px;
+
+}
+
+div.clients .column .review section p{
+	color: #666666;
+	margin-bottom: 50px;
+}
+
+div.clients .column .review section h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	padding-top: 7px;
+}
+
+div.clients .secondColumn{
+	float: right;
+}
+
+/*------------------CLIENTS ENDS----------------------*/
+
+
+/*------------------EXPERIENCE AND SKILLS----------------------*/
+
+div.experienceAndSkills{
+	min-height: 660px;
+	background: #353535;
+}
+
+div.experienceAndSkills .experience{
+	max-width: 460px;
+	float: left;
+	margin-top: 125px;
+}
+
+div.experienceAndSkills .experience section h2{
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+div.experienceAndSkills .skills section h2{
+	margin-bottom: 37px;
+	color: #fff;
+}
+
+div.experienceAndSkills .experience section p{
+	margin-bottom: 35px;
+	color: #fff;
+	line-height: 24px;
+}
+
+div.experienceAndSkills .experience section a{
+	display: inline-block;
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+div.experienceAndSkills .skills{
+	float: right;
+	margin-top: 125px;
+}
+
+/*------------------EXPERIENCE AND SKILLS ENDS----------------------*/
+
+
+/*------------------BLOG----------------------*/
+
+div.blog{
+	min-height: 600px;
+}
+
+div.blog h2{
+	margin-top: 120px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+div.blog .posts .post {
+	float: left;
+	margin-right: 20px;
+	max-width: 320px;
+}
+
+div.blog .posts .post h3{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 20px 0 20px 10px;
+}
+
+div.blog .posts .post h4{
+	display: inline-block;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: #999999;
+	margin-left: 10px;
+	padding-left: 25px;
+}
+
+div.blog .posts .post h4{
+	background: url(../img/date.png);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+	margin-bottom: 20px;
+}
+
+div.blog .posts .post h4.comments{
+	margin-left: 20px;
+	background: url(../img/comments.png);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+
+div.blog .posts .post p{
+	margin-left: 10px;
+	color: #444444;
+	line-height: 24px;
+}
+
+div.blog .posts .thirdPost{
+	margin-right: 0;
+}
+
+/*------------------BLOG ENDS----------------------*/
+
+
+/*------------------START PROJECT----------------------*/
+
+div.startProject{
+	border: 1px solid transparent;
+	min-height: 175px;
+	background: #36c36e;
+}
+
+div.startProject section {
+	float: left;
+}
+
+div.startProject section h2{
+	font-size: 24px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	margin-top: 55px;
+}
+
+div.startProject section p{
+	margin-top: 5px;
+	color: #fff;
+}
+
+div.startProject a{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	float: right;
+	margin-top: 55px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 15px 20px;
+}
+
+div.startProject a:hover{
+	background: #fff;
+	color: #36c36e;
+}
+
+/*------------------START PROJECT ENDS----------------------*/
+
+
+/*------------------FOOTER----------------------*/
+
+footer{
+	border: 1px solid transparent;
+	min-height: 230px;
+	background: #232323;
+}
+
+footer a.logo{
+	margin-top: 94px;
+	margin-right: 55px;
+}
+
+footer .address{
+	float: left;
+	margin-top: 55px;
+	margin-right: 20px;
+}
+
+footer .madrid{
+	margin-right: 0;
+}
+
+footer .address h3{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+footer .address p{
+	color: #fff;
+	font-weight: normal;
+}
+
+footer .address p.phone{
+	margin-top: 20px;
+}
+
+/*------------------FOOTER ENDS----------------------*/
